@@ -11,14 +11,14 @@ AI-powered stock news tracker for retail investors.
 - Support for Claude, Gemini, and GPT-4 APIs
 
 ## Setup
-1. Clone: `git clone https://github.com/YOUR_USERNAME/stockscout.git`
+1. Clone: `git clone https://github.com/YOUR_USERNAME/stock-scout.git`
 2. Install: `pip install -r requirements.txt`
 3. Configure: Copy `.env.example` to `.env` and add your API keys
 4. Run: `streamlit run app.py`
 
 ## API Keys
-- Anthropic (Claude): https://console.anthropic.com/settings/keys
 - Google (Gemini): https://aistudio.google.com/app/apikey (FREE)
+- Anthropic (Claude): https://console.anthropic.com/settings/keys
 - OpenAI (GPT-4): https://platform.openai.com/api-keys
 
 ## Usage
