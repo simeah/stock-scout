@@ -14,10 +14,6 @@ google-generativeai==0.7.2
 scikit-learn==1.5.0
 numpy==1.26.4
 
-
-# Email
-secure-smtplib==0.1.1
-
 # Scheduler (optional — for built-in weekly runs)
 apscheduler==3.10.4
 openai==1.47.1
