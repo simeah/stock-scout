@@ -1,0 +1,72 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc",
+    "position": "LONG",
+    "cik": "0000320193",
+    "thesis": "Apple is a consumer technology ecosystem with exceptional services revenue.",
+    "keywords": ["Apple Services", "App Store", "iPhone upgrade", "Apple earnings"],
+    "sources": [
+      ["Google News", "google_news", {"q": "Apple Services App Store iPhone upgrade"}],
+      ["Google News", "google_news", {"q": "Apple earnings guidance revenue AI"}],
+      ["Google News", "google_news", {"q": "Apple Intelligence AI features"}],
+      ["SEC EDGAR", "sec_edgar", {"cik": "0000320193", "company": "Apple"}]
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Nvidia Corporation",
+    "position": "LONG",
+    "cik": "0001045810",
+    "thesis": "Nvidia dominates AI infrastructure with 80% market share. Blackwell fully sold out through 2026.",
+    "keywords": ["Nvidia Blackwell", "GB200", "AI chips", "Nvidia earnings"],
+    "sources": [
+      ["Google News", "google_news", {"q": "Nvidia Blackwell GB200 AI GPU"}],
+      ["Google News", "google_news", {"q": "Nvidia data center revenue earnings"}],
+      ["Google News", "google_news", {"q": "CUDA AI chip dominance competition"}],
+      ["SEC EDGAR", "sec_edgar", {"cik": "0001045810", "company": "Nvidia"}]
+    ]
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon.com Inc",
+    "position": "LONG",
+    "cik": "0001018724",
+    "thesis": "AWS reaccelerating on AI. Retail margins expanding. Advertising 20%+ growth.",
+    "keywords": ["AWS", "cloud revenue", "Amazon advertising", "Amazon earnings"],
+    "sources": [
+      ["Google News", "google_news", {"q": "AWS Amazon cloud revenue AI infrastructure"}],
+      ["Google News", "google_news", {"q": "Amazon advertising revenue growth"}],
+      ["Google News", "google_news", {"q": "Amazon earnings retail margins AWS"}],
+      ["SEC EDGAR", "sec_edgar", {"cik": "0001018724", "company": "Amazon"}]
+    ]
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase",
+    "position": "LONG",
+    "cik": "0000019617",
+    "thesis": "#1 large-cap bank. NII resilient. Investment banking recovery. 2000+ AI use cases.",
+    "keywords": ["JPMorgan earnings", "net interest income", "investment banking"],
+    "sources": [
+      ["Google News", "google_news", {"q": "JPMorgan Chase earnings NII net interest income"}],
+      ["Google News", "google_news", {"q": "JPMorgan investment banking M&A activity"}],
+      ["Google News", "google_news", {"q": "JPMorgan AI technology banking"}],
+      ["SEC EDGAR", "sec_edgar", {"cik": "0000019617", "company": "JPMorgan"}]
+    ]
+  },
+  {
+    "ticker": "LLY",
+    "name": "Eli Lilly",
+    "position": "LONG",
+    "cik": "0000059478",
+    "thesis": "GLP-1 obesity supercycle. Tirzepatide clinically superior. Manufacturing ramp $9B+.",
+    "keywords": ["Lilly tirzepatide", "Mounjaro Zepbound", "GLP-1"],
+    "sources": [
+      ["Google News", "google_news", {"q": "Eli Lilly tirzepatide Mounjaro Zepbound GLP-1"}],
+      ["Google News", "google_news", {"q": "Lilly manufacturing supply obesity drug"}],
+      ["Google News", "google_news", {"q": "Lilly earnings guidance GLP-1 sales"}],
+      ["SEC EDGAR", "sec_edgar", {"cik": "0000059478", "company": "Eli Lilly"}]
+    ]
+  }
+]
