@@ -1,19 +1,12 @@
-# Core
-streamlit==1.35.0
-python-dotenv==1.0.1
-requests==2.32.3
-beautifulsoup4==4.12.3
-lxml==5.2.2
-feedparser==6.0.11
-
-# LLM clients
-anthropic==0.28.0
-google-generativeai==0.7.2
-
-# Semantic dedup (no model download required)
-scikit-learn==1.5.0
-numpy==1.26.4
-
-# Scheduler (optional — for built-in weekly runs)
-apscheduler==3.10.4
-openai==1.47.1
+streamlit
+python-dotenv
+requests
+beautifulsoup4
+lxml
+feedparser
+anthropic
+google-generativeai
+openai
+scikit-learn
+numpy
+apscheduler
